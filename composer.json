@@ -1,5 +1,5 @@
 {
-    "name":        "xrow/sylius",
+    "name":        "xrowgmbh/sylius",
     "type":        "project",
     "description": "E-Commerce platform for PHP, based on Symfony framework.",
     "license":     "MIT",
