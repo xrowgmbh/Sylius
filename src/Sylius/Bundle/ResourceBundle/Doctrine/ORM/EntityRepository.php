@@ -111,7 +111,7 @@ class EntityRepository extends BaseEntityRepository implements RepositoryInterfa
     /**
      * {@inheritdoc}
      */
-    public function createPaginator(array $criteria = array(), array $sorting = array())
+    public function createPaginator(?array $criteria = NULL, ?array $orderBy = NULL)
     {
         $queryBuilder = $this->getCollectionQueryBuilder();
 
