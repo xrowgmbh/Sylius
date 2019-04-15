@@ -40,7 +40,7 @@ class EntityRepository extends BaseEntityRepository implements RepositoryInterfa
      *
      * @return null|object
      */
-    public function find($id)
+    public function find($id, $lockMode = Doctrine\DBAL\LockMode::NONE, $lockVersion = NULL)
     {
         return $this
             ->getQueryBuilder()
